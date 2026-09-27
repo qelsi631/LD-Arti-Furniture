@@ -1,4 +1,5 @@
 import interiorImage from "../assets/interior.jpg";
+import logo from "../assets/LD-arti-logo.png";
 
 const footerLinks = [
 	{ label: "Ballina", href: "#home" },
@@ -28,7 +29,7 @@ function Footer() {
 				<div>
 					<a href="#home" className="inline-block">
 						<img
-							src="/src/assets/LD-arti-logo.png"
+							src={logo}
 							alt="LD arti Furniture"
 							className="h-12 w-auto"
 						/>

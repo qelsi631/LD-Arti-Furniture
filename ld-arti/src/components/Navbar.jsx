@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/LD-arti-logo.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ function Navbar() {
         {/* REAL LOGO */}
         <Link to="/" className="flex-shrink-0">
           <img
-            src="/src/assets/LD-arti-logo.png"
+            src={logo}
             alt="LD arti Furniture"
             className="h-10 w-auto sm:h-12"
           />
